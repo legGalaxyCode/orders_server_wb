@@ -1,0 +1,62 @@
+{
+  "order_uid": "b563feb7b2b84b6test2",
+  "track_number": "WBILMTESTTRACKtest2",
+  "entry": "WBILtest2",
+  "delivery": {
+    "name": "Misha Marshak",
+    "phone": "+972222222",
+    "zip": "263348",
+    "city": "Ryazan",
+    "address": "Lenina 2",
+    "region": "Vostochniy",
+    "email": "test2@gmail.com"
+  },
+  "payment": {
+    "transaction": "b563feb7b2b84b6test2",
+    "request_id": "id2",
+    "currency": "RUB",
+    "provider": "xsolla",
+    "amount": 643,
+    "payment_dt": 163712327,
+    "bank": "sber",
+    "delivery_cost": 390,
+    "goods_total": 121,
+    "custom_fee": 0
+  },
+  "items": [
+    {
+      "chrt_id": 993491679,
+      "track_number": "WJAKJDNJAtest2",
+      "price": 120,
+      "rid": "ab4219087a7ashb4btest2",
+      "name": "Horizon",
+      "sale": 0,
+      "size": "M",
+      "total_price": 120,
+      "nm_id": 23899812,
+      "brand": "Sony",
+      "status": 204
+    },
+    {
+      "chrt_id": 993491680,
+      "track_number": "LKAKADNJNJKKJtest2",
+      "price": 408,
+      "rid": "ab4219087a76783bftest2",
+      "name": "Korzinka",
+      "sale": 4,
+      "size": "L",
+      "total_price": 489,
+      "nm_id": 23899703,
+      "brand": "IKEA",
+      "status": 200
+    }
+  ],
+  "locale": "en",
+  "internal_signature": "",
+  "customer_id": "test2",
+  "delivery_service": "qwartal",
+  "shardkey": "11",
+  "sm_id": 101,
+  "date_created": "2021-11-26T06:22:19Z",
+  "oof_shard": "2"
+}

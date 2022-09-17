@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+  postgres:
+    image: 'postgres'
+    ports:
+      - "5432:5432"
+    restart: always
+    deploy:
+      mode: replicated
+      replicas: 1
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    volumes:
+      - ./scripts:/docker-entrypoint-initdb.d
+      - db-data:/var/lib/postgres/data
+  nats-streaming:
+    image: 'nats-streaming'
+    ports:
+      - "4222:4222"
+      - "6222:6222"
+      - "8222:8222"
+    restart: always
+    volumes:
+      - ./nuts-streaming-data:/data
+
+volumes:
+  db-data:
+    driver: local

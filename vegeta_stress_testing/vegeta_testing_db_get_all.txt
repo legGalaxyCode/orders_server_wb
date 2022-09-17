@@ -1,0 +1,10 @@
+# GET localhost:8080/db/orders
+
+Requests      [total, rate, throughput]         3000, 50.02, 50.01
+Duration      [total, attack, wait]             59.985s, 59.98s, 5.086ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  2.799ms, 5.223ms, 4.535ms, 6.647ms, 7.718ms, 21.483ms, 49.278ms
+Bytes In      [total, mean]                     109012734, 36337.58
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:3000  
+Error Set:

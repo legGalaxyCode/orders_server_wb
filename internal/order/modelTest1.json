@@ -1,0 +1,49 @@
+{
+  "order_uid": "b563feb7b2b84b6test1",
+  "track_number": "WBILMTESTTRACKtest1",
+  "entry": "WBILtest1",
+  "delivery": {
+    "name": "Andrey Mory",
+    "phone": "+9721111111",
+    "zip": "2639810",
+    "city": "Moscow",
+    "address": "BB 14",
+    "region": "North",
+    "email": "test1@gmail.com"
+  },
+  "payment": {
+    "transaction": "b563feb7b2b84b6test1",
+    "request_id": "id1",
+    "currency": "USD",
+    "provider": "qiwi",
+    "amount": 19170,
+    "payment_dt": 1637907727,
+    "bank": "sber",
+    "delivery_cost": 1550,
+    "goods_total": 240,
+    "custom_fee": 0
+  },
+  "items": [
+    {
+      "chrt_id": 993493012,
+      "track_number": "WBILMTESTTRACKtest1",
+      "price": 390,
+      "rid": "ab4219087a764ae0btest1",
+      "name": "Matras",
+      "sale": 40,
+      "size": "L",
+      "total_price": 698,
+      "nm_id": 2389212,
+      "brand": "Ampba",
+      "status": 204
+    }
+  ],
+  "locale": "en",
+  "internal_signature": "",
+  "customer_id": "test1",
+  "delivery_service": "sdek",
+  "shardkey": "10",
+  "sm_id": 100,
+  "date_created": "2021-11-26T06:22:19Z",
+  "oof_shard": "1"
+}
