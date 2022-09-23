@@ -54,6 +54,3 @@ CREATE TABLE IF NOT EXISTS items(
 );
 
 CREATE INDEX IF NOT EXISTS index_order_uid ON orders(order_uid);
-
--- INSERT INTO orders(order_uid, track_number, entry, locale, internal_signature, customer_id, delivery_service, shardkey, sm_id, date_created, oof_shard)
--- VALUES ('b563feb7b2b84b6test', 'WBILMTESTTRACK', 'WBIL', )
